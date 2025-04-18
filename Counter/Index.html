@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    h1{
+        text-align: center;
+        font-size: 12em;
+        font-family: Helvetica;
+        font-weight: bold;
+        margin: 0;
+        color: rgb(71, 71, 187);
+        
+    }
+    .container{
+        text-align: center;
+    }
+    .buttons{
+        padding: 20px 30px;
+        background-color: rgb(255, 217, 0);
+        color: rgb(71, 71, 187);
+        font-size: 14px bold;
+        border: solid 2px rgb(71, 71, 187);
+        border-radius: 5px;
+    }
+    .buttons:hover{
+        padding: 15px 25px;
+        background-color: rgb(71, 71, 187);
+        color: rgb(255, 217, 0);
+        font-size: 14px bold;
+        transition: ease-in-out 0.5s;
+    }
+    
+</style>
+<body>
+    <h1 id="counterlabel">0</h1>
+    <div class="container">
+    <button class="buttons" id="decrease">Decrease</button>
+    <button class="buttons" id="reset">Reset</button>
+    <button class="buttons" id="increase">Increase</button>
+    </div>
+    <script src="Scripts.js"></script>
+</body>
+</html>

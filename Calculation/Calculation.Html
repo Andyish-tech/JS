@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1 Id="h1">Cal Circumferense</h1> 
+   <label for="Radius">Enter Radius</label>
+   <input type="text" id="mytext">
+   <button id="calculate">calculate</button>
+   <br>
+   <p id="res"></p>
+
+   <script>
+    const PI = 3.14159;
+    let radius;
+    let Circumference;
+    document.getElementById("calculate").onclick = function() {
+    radius = document.getElementById("mytext").value;
+    radius = number(radius);
+    Circumferense = 2 * PI * radius;
+    document.getElementById("res").innerHTML = `circumference: ${Circumference}`;
+};
+   </script>
+</body>
+</html>
