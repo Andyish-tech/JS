@@ -15,10 +15,10 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(147, 60, 228);
+    background-color: rgba(155, 74, 231, 0.892);
 }
 button:active{
-    background-color: blueviolet;
+    background-color: rgba(160, 86, 230, 0.544);
 }
 input{
     font-size: 2rem;
